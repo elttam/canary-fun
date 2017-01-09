@@ -38,7 +38,7 @@ if platform.architecture()[0]=='64bit':
     F = "<Q"
 else:
     L = 4
-    F = "<4"
+    F = "<I"
 
 def get_at_random_address(pid):
     res = None
